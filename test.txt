@@ -1,0 +1,88 @@
+
+Glossary
+Jun 13, 2023
+
+Noviantika G.
+
+5min Read
+
+What Is Node.js: Common Use Cases and How to Install It
+What Is Node.js: Common Use Cases and How to Install It
+Node.js is a JavaScript runtime used to create scalable server-side and networking applications via virtual private servers. It offers non-blocking input/output (I/O) operations and is built on event-driven, asynchronous architecture to help developers create various projects efficiently and easily.
+
+This article will cover how Node.js works and discuss some of its common use cases. We will also explore the differences between Node.js and npm. Finally, we’ll provide a step-by-step tutorial on how to install Node.js on Windows, macOS, and Linux.
+
+Download Glossary For Web Beginners
+
+What Is Node.js?
+How Does Node.js Work?
+Asynchronous Architecture
+Node.js Use Cases
+Node.js vs npm
+How to Install Node.js
+Windows
+macOS
+Linux
+What Is Node.js?
+Node.js is a single-threaded, cross-platform runtime environment built on Chrome’s V8 JavaScript engine. It is open-source software to build real-time and scalable network applications.
+
+How Does Node.js Work?
+Compared to other platforms, Node.js has a particular workflow. It operates as a single process, which means it doesn’t create a new thread for every request. A thread is a set of instructions that need to be performed by the server.
+
+Node.js employs non-blocking I/O operations – when a client sends a request to the web server, the single-threaded event loop picks it up and sends it to a worker thread for processing.
+
+Instead of blocking the thread and wasting CPU resources by waiting for a response, Node.js will continue working on the next task. This way, it can handle a massive amount of concurrent requests.
+
+That said, Node.js is not suitable for CPU-intensive tasks as they could prevent the main thread from handling other requests, effectively blocking it.
+
+Asynchronous Architecture
+As previously discussed, the Node.js thread doesn’t wait for a response and moves on to process a subsequent request. On the asynchronous architecture, the event loop operates in an event-driven manner. Once it has received a response from the previous API call, it puts the reply in the event queue.
+
+The event loop will finish all prior and current requests before executing a callback function to send the server’s response to the client.
+
+Since Node.js uses a single-threaded event loop, it can deal with multiple requests simultaneously with faster execution times, and less resource usage.
+
+In comparison, synchronous architecture software performs one task at a time. Therefore, the event loop will only move to the next one if the previous task is finished.
+
+Explanation chart of synchronous vs asynchronous architecture
+Node.js Use Cases
+Node.js is a good solution to perform data-intensive tasks or real-time analytics since it has asynchronous architecture and non-blocking I/O features. Some popular use cases include:
+
+Real-time chatting. Node.js can work with data-intensive programs like chat apps as it handles I/O tasks effectively. It uses push technology over web sockets, allowing two-way communication between servers and clients. As a result, the server doesn’t need to maintain separate threads for each open connection due to Node.js’ single-threaded asynchronous architecture.
+Data streaming. Node.js has built-in modules that support data streaming, which allows the creation of readable and writable streams. Node.js will help queue data and distribute it asynchronously without blockages or interruptions. It is a good option for streaming features that can process files while they’re being uploaded.
+Server-side proxies. Node.js can manage a massive amount of concurrent connections using a non-blocking approach. It can be employed as an effective server-side proxy which collects data from various third-party resources. In some cases, Node.js is used to build client-side apps to manage assets and proxying/stubbing API requests.
+System monitoring dashboards. Using the event loop feature of Node.js, you can create a web-based dashboard to check the status of multiple services asynchronously. Both internal and public service statuses can be reported live and in real-time.
+REST API. Node.js features a number of packages such as Express.js and Koa.js which can be used to build applications. It can speed up the API integration process and be the basis for a light and fast REST API.
+Single Page Applications (SPAs). Entire SPAs are loaded on a single page for a desktop-app-like experience. As Node.js can handle asynchronous calls efficiently among heavy I/O operations, it allows SPAs to have seamless data updates without refreshing the page.
+It’s also important to note that Node.js supports both frontend and backend development. Here are the reasons why it works for both:
+
+Reusable code. Multiple components of Node.js can be reused for both the backend and frontend.
+High efficiency. Using Node.js can reduce context-switching between multiple programming languages.
+Node.js vs npm
+While Node.js is a JavaScript runtime environment, the Node Package Manager or npm is a large part of the Node.js ecosystem.
+
+It is a package manager that allows the JavaScript and Node.js communities to publish and share their node modules with other people. This makes the application development process faster and more efficient.
+
+npm consists of two parts:
+
+A command-line interface (CLI) tool for downloading and publishing packages.
+An online repository that stores JavaScript and Node.js packages.
+npm hosts millions of downloadable packages which are organized in multiple categories. It is considered to be the world’s largest software registry. The entire library of packaged modules can be found on the official website.
+
+By default, npm comes with every Node.js installation. You will need to download the packages on the official website to use it.
+
+How to Install Node.js
+Node.js can be installed in a number different ways. Here are the most convenient methods to install it on Windows, macOS, and Linux:
+
+Windows
+Follow these instructions to install Node.js on a machine running Windows:
+
+Download the Node.js installer directly from the official website.
+Double-click the downloaded file – the Node.js Setup window will open. Press Next.
+ode.js is an open-source, cross-platform JavaScript runtime environment used to develop scalable server-side and networking applications. It uses the Chrome V8 JavaScript execution engine.
+
+Processing a request with Node.js is efficient and lightweight. The software is suitable for data-intensive and real-time applications, such as real-time chats, data streaming, server-side proxies, system monitoring dashboards, REST APIs, and SPAs.
+
+To install Node.js on Windows and macOS, download the installer from the official website. Linux users will have to obtain it via a Terminal command.
+
+We hope that this article has helped you understand Node.js. If you have any questions or suggestions, please leave them in the comments section below.

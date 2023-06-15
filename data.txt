@@ -1,0 +1,5 @@
+Node.js is a JavaScript runtime used to create scalable server-side and networking applications via virtual private servers.
+ It offers non-blocking input/output (I/O) operations and is built on event-driven, asynchronous architecture to help developers create various projects efficiently and easily.
+
+This article will cover how Node.js works and discuss some of its common use cases. We will also explore the differences between Node.js and npm. 
+Finally, we’ll provide a step-by-step tutorial on how to install Node.js on Windows, macOS, and Linux.
